@@ -11,3 +11,6 @@ def home():
 def peppy():
     message = pep.pep()
     return render_template('home.html', message=message)
+
+if __name__ == '__main__':
+    app.run(port=5000)
